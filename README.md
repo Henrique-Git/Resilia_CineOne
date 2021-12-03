@@ -13,22 +13,22 @@
 - #### [Como Usar](#como-usar)
     - ##### [Pré-Requisitos](#pré-requisitos)
     - ##### [Dependências](#dependências)
-    - ##### [Rotas](#rotas)
     - ##### [Consumo](#consumo)
+        - ###### [Rotas](#rotas)
 - #### [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - #### [Contatos](#contatos)
 
 --------------------
 
-### Sobre
+<h3 align=center>Sobre</h3>
 
 <p align=justify> Projeto desenvolvido para fins educativos como requisito de conclusão do Módulo 4 da Formação FullStack da Resilia Educação. O projeto foi realizado em grupo, no entanto, cada um dos integrantes ficou responsável por uma <strong>Entidade</strong> definida sob o tema <strong>Cinema</strong>, sendo esse repositório atual o responsável pelas informações relacionadas à <strong>Bilheteria</strong>.</p>
 
 --------------------
 
-### Como Usar
+<h3 align=center>Como Usar</h3>
 
-#### Pré-Requisitos
+### Pré-Requisitos
 
 <p align=justify>Para executar a API, primeiramente é necessário que seja realizada uma clonagem desse repositório para uma pasta do computador da seguinte maneira.</p>
 
@@ -44,8 +44,7 @@ cd <nome da pasta>
 ```
 <p align=justify>Finalizada essa etapa, podemos dar início à instalação das dependências utilizadas no projeto.</p>
 
-
-#### Dependências
+### Dependências
 
 <p align=justify>Para fazer as instalações de todas as dependências do projeto, é primeiro necessário que o computador possua instalado o <strong>NodeJS</strong>, pois as demais dependências utilizadas no projeto foram baseadas nesse ambiente.</p>
 
@@ -60,5 +59,22 @@ npm install <nome da dependência>
 <ul>
     <li>Express</li>
     <li>Sqlite3</li>
+    <li>Sequelize</li>
+    <li>Consign</li>
+    <li>Body-Parser</li>    
 </ul>
     
+### Consumo
+
+<p align=justify>Após todas as dependências utilizadas no projeto serem instaladas, a API está pronta para ser executada. A primeira ação a ser tomada é a inicialização do servidor com <strong>Express</strong> através do comando:</p>
+    
+```
+npm start
+
+```
+
+<p align=justify>Agora que o servidor já está rodando, para fazer o consumo da API e utilização das rotas definidas, pode ser utilizada qualquer ferramenta de testes de API desejada (Insomnia, Postman, SoapUI).</p>
+    
+#### Rotas
+
+<p align=justify>As rotas disponibilizadas para consumo na API foram:</p>
