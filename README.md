@@ -16,17 +16,17 @@
     - ##### [Consumo](#consumo)
         - ###### [Rotas](#rotas)
 - #### [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- #### [Contatos](#contatos)
+- #### [Contato](#contato)
 
 --------------------
 
-<h3 align=center>Sobre</h3>
+<h2 align=center>Sobre</h2>
 
 <p align=justify> Projeto desenvolvido para fins educativos como requisito de conclusão do Módulo 4 da Formação FullStack da Resilia Educação. O projeto foi realizado em grupo, no entanto, cada um dos integrantes ficou responsável por uma <strong>Entidade</strong> definida sob o tema <strong>Cinema</strong>, sendo esse repositório atual o responsável pelas informações relacionadas à <strong>Bilheteria</strong>.</p>
 
 --------------------
 
-<h3 align=center>Como Usar</h3>
+<h2 align=center>Como Usar</h2>
 
 ### Pré-Requisitos
 
@@ -78,3 +78,28 @@ npm start
 #### Rotas
 
 <p align=justify>As rotas disponibilizadas para consumo na API foram:</p>
+
+![screenshot](https://github.com/Henrique-Git/Resilia_CineOne/blob/main/img/rotas.png)
+
+--------------------
+    
+<h2 align=center>Tecnologias Utilizadas</h2>
+    
+<ul>
+    <li><strong>JavaScript</strong></li>
+    <li><strong>NodeJS</strong></li>
+    <li><strong>Sqlite</strong></li>
+    <li><strong>ORM (Sequelize)</strong></li>
+</ul>
+    
+--------------------
+
+<h2 align=center>Contato</h2>
+
+- ##### Henrique Medeiros
+    
+- [![Linkedin Badge](https://img.shields.io/badge/-HenriqueMedeiros-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/henrique-neves-medeiros-19320a184/)](https://www.linkedin.com/in/henrique-neves-medeiros-19320a184/) 
+[![Gmail Badge](https://img.shields.io/badge/-henrique.nemed@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:henrique.nemed@gmail.com)](mailto:henrique.nemed@gmail.com)
+
+
+    
