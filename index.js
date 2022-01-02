@@ -17,22 +17,3 @@
 })();
 
 
-
-/*const configExpress = require('./config/configExpress')
-const conexao = require('./persist/conexao')
-const tabelas = require('./persist/tabelas')
-
-conexao.connect(erro => {
-    if(erro){
-        console.log(erro)
-    }
-    else{
-        console.log('Sucessooooo PORRAAA!')
-
-        tabelas.init(conexao)
-        const app = configExpress()
-
-        app.listen(3000, () => console.log(`Servidor Rodando: localhost:3000`))
-    }
-})*/
-
