@@ -9,7 +9,7 @@
         console.log('Conexão com o Banco de Dados Realizada com Sucesso');
 
         const app = configExpress()
-        app.listen(3000, () => console.log(`Servidor Rodando: localhost:3000`));
+        app.listen(process.env.PORT || 3000, () => console.log(`Servidor Rodando: localhost:3000`));
     }
     catch(error){
         console.log(error);

@@ -28,32 +28,5 @@ const Bilheteria = database.define('bilheteria', {
         allowNull: false
     }
 })
-/*{
-    compraBilhete(bilheteria){
-        const sql = 'INSERT INTO Bilheteria SET ?'
-
-        conexao.query(sql, bilheteria, (erro, resultados) => {
-            if(erro){
-                console.log(erro)
-            }
-            else{
-                console.log(resultados)
-            }
-        })
-    }
-
-    bilhetesComprados(res){
-        const sql = 'SELECT * FROM Bilheteria'
-
-        conexao.query(sql, (erro, resultados) => {
-            if(erro){
-                console.log(erro)
-            }
-            else{
-                res.send(resultados)
-            }
-        })
-    }
-}*/
 
 module.exports = Bilheteria;
